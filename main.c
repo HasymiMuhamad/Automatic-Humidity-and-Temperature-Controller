@@ -34,7 +34,7 @@ void loop() {
   
     //logika kondisi if untuk indikator bahaya dan aman
  
-/*  if ( kelembaban < 80.00){      //jika kelembaban lebih besar dari 80.00
+  if ( kelembaban < 80.00){      //jika kelembaban lebih besar dari 80.00
      digitalWrite(lampu_bahaya, LOW);   //lampu_bahaya mati
      delay (10);
      digitalWrite(sirine, LOW);   //lampu_bahaya mati
@@ -63,5 +63,5 @@ void loop() {
      delay(10);
      digitalWrite(sirine,LOW);
      delay(10); 
-        }  */
+        }  
 }
